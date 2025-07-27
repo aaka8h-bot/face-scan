@@ -58,6 +58,41 @@ Whether you're an organization streamlining operations or an AI researcher aimin
 - Git installed for repository cloning.
 - Administrative access for library installations.
 
-## Installation
-1. Clone the repository:
+
+## Usage
+Run the script with `python face_scan.py` and follow the prompts:
+1. **User Registration** ('r' mode): Enter a unique ID, face the camera—data is encrypted and saved.
+2. **Attendance Taking** ('a' mode): Face the camera for automatic recognition and logging.
+3. **Viewing Attendance**: Open Excel files in `attendance/` for records.
+4. **Advanced Tips**: Edit the script to adjust tolerance or add features like email alerts.
+
+For detailed code walkthrough, review the inline comments in `face_scan.py`.
+
+## Contributing
+Contributions are welcome! Fork the repo, create a feature branch, and submit a pull request. Focus on enhancements like multi-face detection or UI improvements to help evolve this into a monetizable product.
+
+## Roadmap
+- v1.1: Add cloud integration for remote access.
+- v1.2: Implement voice prompts using AI reasoning techniques.
+- Future: Mobile app version and premium analytics for revenue generation.
+
+## Security Notes
+- Protect `secret.key` at all costs—consider hardware security modules for enterprise use.
+- This system prioritizes privacy; no data is transmitted without explicit configuration.
+
+## Tags
+- facial-recognition
+- attendance-system
+- python-ai
+- encryption
+- opencv
+- face-recognition
+- ai-security
+- open-source
+- monetization
+
+## Contact
+Project owner: **Aakash**  
+Telegram: t.me/aaka8h  
+Email inquiries for custom AI solutions, collaborations, or monetization advice—let's build profitable AI projects together!
 
